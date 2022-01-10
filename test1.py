@@ -41,10 +41,13 @@ while running:
                print("1 눌림")
             if event.key == pygame.K_2:
                 print("2 눌림")
-            if event.key == pygame.K_4:
-                print("4 눌림")
+            if event.key == pygame.K_3:
+                print("3 눌림")
+            
             if event.key == pygame.K_5:
                 print("5 눌림")
+            if event.key == pygame.K_6:
+                print("6 눌림")
              
          
         if event.type == pygame.KEYUP:
