@@ -19,7 +19,7 @@ class BACKGROUND(pygame.sprite.Sprite):
         self.rect = self.image.get_rect(center=position)
         self.rect.center = (400, 300)
         self.mask = pygame.mask.from_surface(self.image)
-        
+
 background = BACKGROUND()
 
 while running:
@@ -41,6 +41,10 @@ while running:
                print("1 눌림")
             if event.key == pygame.K_2:
                 print("2 눌림")
+            if event.key == pygame.K_4:
+                print("4 눌림")
+            if event.key == pygame.K_5:
+                print("5 눌림")
              
          
         if event.type == pygame.KEYUP:
